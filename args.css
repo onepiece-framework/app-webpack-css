@@ -19,12 +19,12 @@ span.args > span.arg > span.quote:after {
 }
 
 span.args > span.arg > span.boolean.true {
-	color: blue;
+	color: var(--root-color-true);
 }
 
 span.args > span.arg > span.null,
 span.args > span.arg > span.boolean.false {
-	color: red;
+	color: var(--root-color-false);
 }
 
 span.args > span.arg > span.number {
@@ -32,13 +32,17 @@ span.args > span.arg > span.number {
 	font-style: italic;
 }
 
+/*
 span.args > span.arg > span.integer {
 
 }
+*/
 
+/*
 span.args > span.arg > span.double {
 
 }
+*/
 
 span.args > span.arg > span.array {
 	color: purple;
