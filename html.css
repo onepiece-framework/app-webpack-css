@@ -1,4 +1,13 @@
 
+/** op-webpack-css:/html.css
+ *
+ * @created   2019-12-09
+ * @version   1.0
+ * @package   op-webpack-css
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
 /* <?php if( \OP\Env::isAdmin() ): ?> */
 html:focus-within {
 	scroll-behavior: smooth;

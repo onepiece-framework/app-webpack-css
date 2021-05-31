@@ -1,16 +1,16 @@
 
-/** op-module-webpack-css-common:/font-size.css
+/** op-webpack-css:/font-size.css
  *
  * @created   2018-11-15
  * @version   1.0
- * @package   op-module-webpack-css-common
+ * @package   op-webpack-css
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
 /** For smartphone and tablet settings.
  * 
- * @creation  2018-11-15
+ * @created   2018-11-15
  */
 @media screen and (max-device-width: 800px) {
 	/** Auto calculate font size.
